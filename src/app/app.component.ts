@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Jeshen';
+  name = 'jeshen';
 
   item = [{
     nama : 'Buah Kelengkeng',
@@ -23,5 +23,10 @@ export class AppComponent  {
 
   user = {
     nama:'abc'
+  };
+
+  Pesan = ' '
+  KlikButton(){
+    this.Pesan='Tombol Tertakan'
   }
 }
