@@ -1,4 +1,13 @@
 <hello name="{{ name }}"></hello>
 <p>
   Start editing to see some magic happen :)
+  <br/>
+  {{"Contoh"}}
+  <br/><br/>
+  25 + 25 = {{25+25}}
+
+
 </p>
+<div *ngFor= "let buah of item">
+  {{buah.nama}} - {{buah.harga | currency: 'Rp '}}
+  </div>
